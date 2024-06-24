@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles/user_reg.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/logo2.jpg" alt="Logo">
+        <h1>MindBloom</h1>
+    </div>
+    <div class="registration-wrapper">
+        <div class="registration-container">
+            <h2>Register</h2>
+            <form action="/register" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required autofocus>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">Contact:</label>
+                <input type="tel" id="contact" name="contact" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

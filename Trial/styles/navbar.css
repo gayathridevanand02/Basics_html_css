@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #95d4ce;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    color: rgb(5, 1, 1);
+    font-size: 24px;
+    margin: 0;
+}
